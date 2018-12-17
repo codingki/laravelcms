@@ -334,7 +334,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Admin</h1>
+                <h1 class="page-header"></h1>
 
                 @yield('content')
             </div>
@@ -350,11 +350,13 @@
 <!-- /#wrapper -->
 
 <!-- jQuery -->
-<script src="js/libs/bootstrap.js"></script>
-<script src="js/libs/jquery.js"></script>
-<script src="js/libs/metisMenu.js"></script>
-<script src="js/libs/sb-admin-2.js"></script>
-<script src="js/libs/script.js"></script>
+<script src="js/libs/jquery.js"  type="text/javascript"></script>
+<script src="js/libs/script.js"  type="text/javascript"></script>
+<script src="js/libs/bootstrap.js"  type="text/javascript"></script>
+
+<script src="js/libs/metisMenu.js"  type="text/javascript"></script>
+<script src="js/libs/sb-admin-2.js"  type="text/javascript"></script>
+
 @yield('footer')
 
 
