@@ -12,12 +12,13 @@
     <title>Admin</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/libs/blog-post.css" rel="stylesheet">
-    <link href="css/libs/bootstrap.css" rel="stylesheet">
-    <link href="css/libs/font-awesome.css" rel="stylesheet">
-    <link href="css/libs/metisMenu.css" rel="stylesheet">
-    <link href="css/libs/sb-admin-2.css" rel="stylesheet">
-    <link href="css/libs/styles.css" rel="stylesheet">
+    <link href="{{ asset('/css/libs/blog-post.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/libs/bootstrap.css') }}" rel="stylesheet">
+
+    <link href="{{ asset('/css/libs/font-awesome.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/libs/metisMenu.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/libs/sb-admin-2.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/libs/styles.css') }}" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -350,12 +351,12 @@
 <!-- /#wrapper -->
 
 <!-- jQuery -->
-<script src="js/libs/jquery.js"  type="text/javascript"></script>
-<script src="js/libs/script.js"  type="text/javascript"></script>
-<script src="js/libs/bootstrap.js"  type="text/javascript"></script>
+<script src="{{ asset('/js/libs/jquery.js') }}"  type="text/javascript"></script>
+<script src="{{ asset('/js/libs/script.js') }}"  type="text/javascript"></script>
+<script src="{{ asset('/js/libs/bootstrap.js') }}"  type="text/javascript"></script>
 
-<script src="js/libs/metisMenu.js"  type="text/javascript"></script>
-<script src="js/libs/sb-admin-2.js"  type="text/javascript"></script>
+<script src="{{ asset('/js/libs/metisMenu.js') }}"  type="text/javascript"></script>
+<script src="{{ asset('/js/libs/sb-admin-2.js') }}"  type="text/javascript"></script>
 
 @yield('footer')
 
