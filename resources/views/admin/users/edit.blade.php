@@ -40,8 +40,13 @@
             {!! Form::submit('Edit User', ['class'=>'btn btn-primary']) !!}
         </div>
         {!! Form::close() !!}
-    </div>
 
+    
+        {!! Form::open(['method'=> 'DELETE', 'action' => ['AdminUsersController@destroy', $user->id ]]) !!}
+        <div class="form-group">
+            {!! Form::submit('Delete User', ['class' => 'btn btn-danger']) !!}
+        </div>
+</div>
 </div>
 <div class="row">
     @include('includes.form_error')
